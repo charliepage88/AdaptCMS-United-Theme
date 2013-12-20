@@ -31,7 +31,7 @@
 	<meta name="author" content="">
 
 	<!-- Le styles -->
-	<link rel="stylesheet" href="<?= $this->webroot ?>theme/United/css/bootstrap.min.css" type="text/css" media="all" />
+	<?= $this->Html->css('bootstrap.min') ?>
 	<style type="text/css">
 		body {
 			padding-top: 60px;
@@ -43,6 +43,8 @@
 	</style>
 
 	<?= $this->Html->css("font-awesome.min") ?>
+
+	<link rel="apple-touch-icon" href="<?= $this->webroot ?>img/apple-touch-icon.png" />
 
 	<!--[if lt IE 9]>
 	<?= $this->Html->script('html5.min') ?>
